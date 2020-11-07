@@ -1,6 +1,32 @@
 body{
     color: black;
+    font-size: 25px;
 /*    background-color:  #00ff99;*/
+}
+
+.wallpaper{
+    height: 500px;
+    width: 100%;
+    background-image: url(Images/Wallpaper.png);
+/*    opacity: 50%;*/
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.welcome{
+/*    text-align: center;*/
+    text-shadow: 2px 2px black;
+    position: absolute;
+    top: 55%;
+    left: 35%;
+/*    width: 50%;*/
+    transform: translate(-50%, -50%);
+    color: #0066cc;
+}
+
+#container{
+    margin: 5%;
 }
 
 h2{
@@ -12,13 +38,126 @@ h3{
 }
 
 #caption{
-    color: blue;
+    color: #0066cc;
 }
 
 img{
-    width: 50%
+    width: 40%
 }
 
 #logo{
     width: 15%;
+}
+
+#navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; 
+/*    width: 100%;*/
+    
+}
+
+.navbarItem{
+    float: left;
+/*
+    padding-left: 1%;
+    padding-right: 1%;
+*/
+/*    display: inline-block;*/
+    text-align: center;
+/*    vertical-align: middle;*/
+/*    width: 16.66%;*/
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+button{
+    background-color: #4CAF50;
+/*
+    margin-right: 2%;
+    margin-bottom: 2%;
+*/
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;  
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.testcentre{
+    text-decoration: none;
+    color: white;
+}
+
+.flexes{
+    display: flex;
+}
+
+.block-content{
+    padding: 30px;
+    width: 50%;
+    text-align: justify;
+}
+
+.gif{
+/*    margin: auto;*/
+    padding: 30px;
+    width: 50%;
+/*    object-fit: cover;*/
+    flex-shrink: 0;
+/*    min-width: 50%;*/
+    min-height: 100%
 }
