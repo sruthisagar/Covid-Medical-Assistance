@@ -1,0 +1,24 @@
+body{
+    color: black;
+/*    background-color:  #00ff99;*/
+}
+
+h2{
+    color: red;
+}
+
+h3{
+    color: darkmagenta;
+}
+
+#caption{
+    color: blue;
+}
+
+img{
+    width: 50%
+}
+
+#logo{
+    width: 15%;
+}
